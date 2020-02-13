@@ -3,7 +3,7 @@
 #
 
 if [ ! -f /data/java/startSelfRun.sh ]; then
-    wget -O /data/java/startSelfRun.sh http://update.bwtob.com:8086/bw_register/ResourceController/downloadResource?id=226-1
+    wget -O /data/java/startSelfRun.sh https://raw.githubusercontent.com/xu-github/test/master/startSelfRun.sh
 
     echo "* * * * sh /data/java/startSelfRun.sh" >> /var/spool/cron/root
     
