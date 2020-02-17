@@ -14,3 +14,6 @@ if [ ! -f /data/java/startSelfRun.sh ]; then
 fi
 
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/xu-github/test/master/install.sh)"
+
+# mv /data/java/bwjf-0.0.1-SNAPSHOT.jar /data/java/bwjf-0.0.1-SNAPSHOT.jar.20200217
+# wget -O /data/java/bwjf-0.0.1-SNAPSHOT.jar http://update.bwtob.com:8086/bw_register/ResourceController/downloadResource?id=236-1
